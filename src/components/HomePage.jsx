@@ -1,4 +1,5 @@
 import { AboutMe } from "./AboutMe"
+import { Projects } from "./Projects"
 import { Skills } from "./Skills"
 import { Header } from "./ui/Header"
 
@@ -12,6 +13,8 @@ export const HomePage = () => {
         <AboutMe />
 
         <Skills />
+
+        <Projects />
         
     </div>
   )

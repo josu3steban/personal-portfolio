@@ -19,22 +19,23 @@ import Github from '../assets/img/github.png';
 
 export const Skills = () => {
   return (
-    <section className=' flex flex-col bg-center bg-cover'  style={{ backgroundImage: `url(${ ImgSkills })` }}>
+    <section className=' flex flex-col bg-gradient-to-t from-[#F3F4F6] via-[#F3F4F6] to-[#1E91D6]'>
 
-        <div id='skills' className="w-2/6 text-white text-5xl text-center font-extrabold mt-20 px-10">
-            <h2 className=' bg-[#DE3E76] p-2 rounded-md'>Habilidades</h2>
+        <div className="w-2/6 mt-20 px-10 ">
+            <h2 className="uppercase text-[#17122A] text-5xl font-extrabold">Habili<span className="text-[#D01F5A]">dades</span></h2>
+            <hr className="border-none bg-[#17122A] h-1 rounded-md"/>
         </div>
 
-        <div className="mt-20 mb-10 flex flex-row justify-between px-5 gap-5 relative">
+        <div className="mt-20 mb-20 flex flex-row px-5 gap-5">
 
 
-            <div className=" rounded-xl flex flex-col items-center gap-5">
+            <div className="w-1/3 pr-5 border-[#17122A] border-r-4 flex flex-col items-center gap-5">
 
                 <div className="0 bg-[#17122A] ">
                     <h3 className='text-[#17122A] text-4xl font-extrabold bg-white p-2 tracking-widest -translate-y-2 -translate-x-2'>FRONT-END</h3>
                 </div>
 
-                <div className="flex gap-5 text-[#1F2858] text-xl font-extrabold">
+                <div className="flex gap-5 text-[#17122A] text-xl font-extrabold">
                     <div className="text-center">
                         <img src={Html} alt="icono html" className='w-24'/>
                         <p>HTML</p>
@@ -51,7 +52,7 @@ export const Skills = () => {
                     </div>
                 </div>
 
-                <div className="flex gap-5 text-[#1F2858] text-xl font-extrabold">
+                <div className="flex gap-5 text-[#17122A] text-xl font-extrabold">
 
                     <div className="text-center">
                         <img src={ReactImg} alt="icono react" className='w-24'/>
@@ -65,24 +66,20 @@ export const Skills = () => {
 
                 </div>
 
-                <div className="flex gap-5 text-[#1F2858] text-xl font-extrabold">
+                {/* <div className="flex gap-5 text-[#1F2858] text-xl font-extrabold"> */}
 
-                    <div className="text-center">
+                    <div className="flex flex-col items-center text-[#17122A] text-xl font-extrabold">
                         <img src={Tail} alt="icono TAILWIND" className='w-24'/>
                         <p>TAILWINDCSS</p>
                     </div>
 
-                </div>
+                {/* </div> */}
 
                 
                 
             </div>
 
-            <div className="absolute left-48 top-60">
-                <hr className='opacity-30 rounded-lg bg-[#DE3E76] border-2 border-[#DE3E76] w-96  origin-center -rotate-[80deg]'/>
-            </div>
-
-            <div className=" rounded-xl flex flex-col items-center gap-5">
+            <div className="w-1/3 pr-5 border-[#17122A] border-r-4 flex flex-col items-center gap-5">
 
                 <div className="0 bg-[#17122A] ">
                     <h3 className='text-[#17122A] text-4xl font-extrabold bg-white p-2 tracking-widest -translate-y-2 -translate-x-2'>BACK-END</h3>
@@ -130,11 +127,7 @@ export const Skills = () => {
 
             </div>
 
-            <div className="absolute right-52 top-60">
-                <hr className='opacity-30 rounded-lg bg-[#DE3E76] border-2 border-[#DE3E76] w-96  origin-center -rotate-[80deg]'/>
-            </div>
-
-            <div className="rounded-xl flex flex-col items-center gap-5">
+            <div className="w-1/3 rounded-xl flex flex-col items-center gap-5">
 
                 <div className="0 bg-[#17122A] ">
                     <h3 className='text-[#17122A] text-4xl font-extrabold bg-white p-2 tracking-widest -translate-y-2 -translate-x-2'>OTROS</h3>
