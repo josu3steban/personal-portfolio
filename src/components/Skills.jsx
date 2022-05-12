@@ -19,7 +19,7 @@ import Github from '../assets/img/github.png';
 
 export const Skills = () => {
   return (
-    <section className=' flex flex-col bg-gradient-to-t from-[#F3F4F6] via-[#F3F4F6] to-[#1E91D6]'>
+    <section id='skills' className=' flex flex-col bg-gradient-to-t from-[#F3F4F6] via-[#F3F4F6] to-[#1E91D6]'>
 
         <div className="w-2/6 mt-20 px-10 ">
             <h2 className="uppercase text-[#17122A] text-5xl font-extrabold">Habili<span className="text-[#D01F5A]">dades</span></h2>
