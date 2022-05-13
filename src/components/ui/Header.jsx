@@ -68,34 +68,33 @@ export const Header = () => {
                 </div>
             </div>
 
-            <nav className="">
-                <div className={`
+            <nav className={`
 
-                    flex
+                flex
 
-                    sm:w-full
-                    sm:flex-col
-                    sm:items-center
-                    sm:overflow-hidden
-                    ${menu ? ' sm:h-0' : ' sm:h-60'}
+                sm:w-full
+                sm:flex-col
+                sm:items-center
+                sm:overflow-hidden
+                ${menu ? ' sm:h-0' : ' sm:h-60'}
 
 
-                    transition-all
-                    duration-500
+                transition-all
+                duration-500
 
-                    w-2/3
-                    justify-evenly
-                    gap-2
-                    font-bold
-                    text-white
+                w-2/3
+                justify-evenly
+                gap-2
+                font-bold
+                text-white
 
-                `}>
-                    <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#about-me">Sobre mi</a>
-                    <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#skills">Habilidades</a>
-                    <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#practices">Prácticas</a>
-                    <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Curriculum</a>
-                    <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Contacto</a>
-                </div>
+            `}>
+                
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#about-me">Sobre mi</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#skills">Habilidades</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#practices">Prácticas</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Curriculum</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Contacto</a>
             </nav>
         </div>
 
