@@ -52,9 +52,9 @@ export const AboutMe = () => {
           font-light
           px-10
         ">
-            <p className='sm:mb-3 mb-5'>Soy Josue Tomalá Esparza, actualmente estudiante de Ing. En Sistemas Computacionales, con gran gusto al desarrollo web, tanto para Front-end como Back-end, autotidácta desde el comienzo en mi aprendizaje en el mundo del desarrollo por tratar de aprender cada vez más y nuevas tecnologías.</p>
+            <p className='sm:mb-3 mb-5'>Soy Josue Tomalá Esparza, actualmente estudiante de Ing. En Sistemas Computacionales, con gran gusto al desarrollo web, tanto para Front-end como Back-end, autodidácta desde el comienzo en el mundo del desarrollo por tratar de aprender cada vez más y nuevas tecnologías.</p>
 
-            <p>He realizado varios cursos de programación de diferentes tecnologias y ambitos, como: Diseño web, React, Flutter, Node Js. Actualmente me encuentro tratando de adquirir más conocimientos sobre React para desempeñarme de la mejor forma posible al momento de formar parte de un equipo de trabajo con algún proyecto de desarrollo web.</p>
+            <p>He realizado varios cursos de programación de diferentes tecnologías y ámbitos, como: Diseño web, React, Flutter, Node Js. Actualmente me encuentro tratando de adquirir más conocimientos sobre React para desempeñarme de la mejor forma posible al momento de formar parte de un equipo de trabajo con algún proyecto de desarrollo.</p>
         </div>
 
     </section>
