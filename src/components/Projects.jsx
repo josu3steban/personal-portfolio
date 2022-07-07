@@ -87,8 +87,8 @@ export const Projects = () => {
                     </div>
 
                     <div className="sm:justify-between sm:mt-5 sm:text-sm  flex justify-evenly">
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-notas.netlify.app/" target="_blank">ver sitio</a>
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-notas" target="_blank">repositorio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-crypto.netlify.app/" target="_blank">ver sitio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-cripto" target="_blank">repositorio</a>
                     </div>
                 </div>
 
@@ -133,8 +133,8 @@ export const Projects = () => {
                     </div>
 
                     <div className="sm:justify-between sm:mt-5 sm:text-sm  flex justify-evenly">
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-aspirante.netlify.app/" target="_blank">ver sitio</a>
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-admin-aspirantes" target="_blank">repositorio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-notas.netlify.app/" target="_blank">ver sitio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-notas" target="_blank">repositorio</a>
                     </div>
                 </div>
 
