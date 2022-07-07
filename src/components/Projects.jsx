@@ -2,6 +2,7 @@ import ImgPaciente from '../assets/img/pract-pacientes.jpeg';
 import ImgControl from '../assets/img/pract-control.jpeg';
 import ImgCripto from '../assets/img/pract-cripto.jpeg';
 import ImgAdmin from '../assets/img/pract-admin.jpeg';
+import ImgNotes from '../assets/img/notas.png';
 
 export const Projects = () => {
   return (
@@ -86,8 +87,8 @@ export const Projects = () => {
                     </div>
 
                     <div className="sm:justify-between sm:mt-5 sm:text-sm  flex justify-evenly">
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-crypto.netlify.app/" target="_blank">ver sitio</a>
-                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-cripto" target="_blank">repositorio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-notas.netlify.app/" target="_blank">ver sitio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-notas" target="_blank">repositorio</a>
                     </div>
                 </div>
 
@@ -118,6 +119,29 @@ export const Projects = () => {
                     <h2 className='sm:text-lg sm:text-center  mb-5 uppercase text-2xl font-bold md:hidden'>administración de <span className='text-[#D01F5A]'>personas</span></h2>
                     <div className="rounded-lg overflow-hidden shadow-lg border">
                         <img src={ ImgAdmin } alt="captura de administracion de personas" />
+                    </div>
+                </div>
+                
+            </article>
+  
+            <article className='sm:flex-col-reverse sm:w-full sm:gap-3 sm:p-3  mt-20 w-3/4 flex gap-5 p-10 border-[#17122A] border-r-2 border-b-2'>
+
+                <div className="sm:w-full  flex flex-col w-1/2 text-[#17122A]">
+                    <div className="sm:grow-0  grow flex flex-col justify-center">
+                        <h2 className='sm:hidden  mb-5 uppercase text-2xl font-bold'>aplicación de <span className='text-[#D01F5A]'>notas</span></h2>
+                        <p>Práctica MERN de un aplicación de notas, en el cual se podrá guardar tus notas importantes. Realizado desde el Back-end haciendo con API REST hasta el Front-end por completo . Hecho con React, Tailwindcss, Redux, Nodejs, Express, JWT, MongoDB, Mongoose, Formik, Yup</p>
+                    </div>
+
+                    <div className="sm:justify-between sm:mt-5 sm:text-sm  flex justify-evenly">
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all ' href="https://practica-aspirante.netlify.app/" target="_blank">ver sitio</a>
+                        <a className='uppercase block p-2 text-[#D01F5A] border-2 border-[#D01F5A] rounded-md hover:text-white hover:bg-[#D01F5A] transition-all' href="https://github.com/josu3steban/practica-admin-aspirantes" target="_blank">repositorio</a>
+                    </div>
+                </div>
+
+                <div className="sm:w-full  w-1/2">
+                    <h2 className='sm:text-lg sm:text-center  mb-5 uppercase text-2xl font-bold md:hidden'>aplicación de <span className='text-[#D01F5A]'>notas</span></h2>
+                    <div className="rounded-lg overflow-hidden shadow-lg border">
+                        <img src={ ImgNotes } alt="captura de aplicación de notas" />
                     </div>
                 </div>
 
