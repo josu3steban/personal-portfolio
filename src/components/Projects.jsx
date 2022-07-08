@@ -129,7 +129,7 @@ export const Projects = () => {
                 <div className="sm:w-full  flex flex-col w-1/2 text-[#17122A]">
                     <div className="sm:grow-0  grow flex flex-col justify-center">
                         <h2 className='sm:hidden  mb-5 uppercase text-2xl font-bold'>aplicación de <span className='text-[#D01F5A]'>notas</span></h2>
-                        <p>Práctica MERN de un aplicación de notas, en el cual se podrá guardar tus notas importantes. Realizado desde el Back-end haciendo con API REST hasta el Front-end por completo . Hecho con React, Tailwindcss, Redux, Nodejs, Express, JWT, MongoDB, Mongoose, Formik, Yup</p>
+                        <p>Práctica de un MERN de aplicación de notas, construida desde el back-end hasta el front-end, en la que para hacer uso de esta el que se deberá registrarse e iniciar sesión, siendo esta contralada por tokens. Hecha con React, Tailwindcss, Redux, Node.js, Express, JWT, MongoDB, Mongoose, Formik, Yup.</p>
                     </div>
 
                     <div className="sm:justify-between sm:mt-5 sm:text-sm  flex justify-evenly">
