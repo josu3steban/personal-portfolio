@@ -78,7 +78,7 @@ export const Projects = () => {
 
             </article>
   
-            <article className='sm:flex-col-reverse sm:w-full sm:gap-3 sm:p-3  mt-20 w-3/4 flex gap-5 p-10 border-[#17122A] border-l-2 border-b-2'>
+            <article className='sm:flex-col-reverse sm:w-full sm:gap-3 sm:p-3  mt-20 w-3/4 flex gap-5 p-10 border-[#17122A] border-r-2 border-b-2'>
                 <div className="sm:w-full  flex flex-col w-1/2 text-[#17122A]">
                     <div className="sm:grow-0  grow flex flex-col justify-center">
                         <h2 className='sm:hidden  mb-5 uppercase text-2xl font-bold'>aplicación de <span className='text-[#D01F5A]'>notas</span></h2>
