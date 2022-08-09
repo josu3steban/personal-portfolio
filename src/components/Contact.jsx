@@ -32,7 +32,7 @@ export const Contact = () => {
 
               <hr className='sm:h-2 h-3 w-5/6 rounded-full bg-[#17122A] '/>
 
-              <img src={ImgJT} alt="foto de perfil" className='sm:border-4 sm:bottom-9 w-2/12 rounded-full relative bottom-24 border-8 border-[#17122A]'/>
+              <img src={ImgJT} alt="foto de perfil" className='sm:border-4 sm:bottom-9 sm:w-6/12 w-2/12 rounded-full relative bottom-24 border-8 border-[#17122A]'/>
 
               <div className="sm:w-full sm:flex-col sm:text-lg sm:gap-2 w-10/12 text-2xl flex justify-between text-[#17122A]">
 
