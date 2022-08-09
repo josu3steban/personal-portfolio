@@ -10,7 +10,7 @@ export const Contact = () => {
             sm:p-0 
             sm:ml-5 
             sm:mt-10
-            sm:mb-2
+            
         
             w-2/6 
             mt-20 
