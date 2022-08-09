@@ -93,8 +93,8 @@ export const Header = () => {
                 <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#about-me">Sobre mi</a>
                 <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#skills">Habilidades</a>
                 <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#practices">Prácticas</a>
-                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Curriculum</a>
-                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="">Contacto</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#curriculum">Curriculum</a>
+                <a className="block uppercase p-2 hover:text-[#D01F5A] transition-all duration-200" href="#contact">Contacto</a>
             </nav>
         </div>
 
