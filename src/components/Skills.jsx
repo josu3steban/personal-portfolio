@@ -8,6 +8,7 @@ import Js from '../assets/img/js.png';
 import Mongo from '../assets/img/mongo.png';
 import Mysql from '../assets/img/mysql.png';
 import Nextjs from '../assets/img/nextjs.png';
+import Angular from '../assets/img/angular.png';
 import Node from '../assets/img/node.png';
 import Npm from '../assets/img/npm.png';
 import ReactImg from '../assets/img/react.png';
@@ -98,8 +99,8 @@ export const Skills = () => {
                     </div>
 
                     <div className="text-center">
-                        <img src={Nextjs} alt="icono nextjs" className='sm:w-16 w-24'/>
-                        <p>NEXT JS</p>
+                        <img src={Angular} alt="icono angular" className='sm:w-16 w-24'/>
+                        <p>Angular</p>
                     </div>
                 </div>
 
