@@ -222,8 +222,8 @@ export const Skills = () => {
                     </div>
                     
                     <div className="text-center">
-                        <img src={Npm} alt="icono npm" className='sm:w-16 w-24'/>
-                        <p>NPM</p>
+                        <img src={Github} alt="icono github" className='sm:w-16 w-24'/>
+                        <p>GITHUB</p>
                     </div>
 
                     <div className="text-center">
@@ -234,10 +234,7 @@ export const Skills = () => {
 
                 <div className="sm:gap-5 sm:text-sm sm:font-bold  flex gap-5 text-[#1F2858] text-xl font-extrabold">
 
-                    <div className="text-center">
-                        <img src={Github} alt="icono github" className='sm:w-16 w-24'/>
-                        <p>GITHUB</p>
-                    </div>
+                   
 
                 </div>
 
