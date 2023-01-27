@@ -48,7 +48,7 @@ export const Contact = () => {
                 <div className="sm:gap-2 flex flex-col gap-6">
                   <p className='font-bold'>Ubicación: <span className='font-normal'>Milagro, Guayas</span></p>
                   
-                  <p className='font-bold'>GitHub: <span className='font-normal'><a href="https://github.com/josu3steban/taskmanager" target="_blank">https://github.com/josu3steban</a></span></p>
+                  <p className='font-bold'>GitHub: <span className='font-normal'><a href="https://github.com/josu3steban" target="_blank">https://github.com/josu3steban</a></span></p>
                 </div>
 
               </div>
