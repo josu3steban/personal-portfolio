@@ -40,6 +40,9 @@ export const Contact = () => {
                   <p className='font-bold'>Correo: <span className='font-normal'>josue_3steban@hotmail.com</span></p>
                   
                   <p className='font-bold'>Celular: <span className='font-normal'>0968100098</span></p>
+                    
+                  <p className='font-bold'>Linkedin: <span className='font-normal'><a href="https://github.com/josu3steban/taskmanager" target="_blank">https://www.linkedin.com/in/josue3steban</a></span></p>
+                  
                 </div>
 
                 <div className="sm:gap-2 flex flex-col gap-6">
