@@ -24,8 +24,8 @@ export const Curriculum = () => {
 
         <div className="sm:mt-10 sm:px-5 flex justify-center mt-20 mb-20">
 
-          <iframe className="sm:w-full h-screen w-11/12" src="https://onedrive.live.com/embed?cid=FBB93E217B1881EB&resid=FBB93E217B1881EB%211604&authkey=AB48tv0vjF9TH4M&em=2" frameborder="0" scrolling="no"></iframe>
-
+          <iframe src="https://onedrive.live.com/embed?resid=FBB93E217B1881EB%211765&authkey=!AHY_pxVGbcX6HEg&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe>
+          
         </div>
         
     </section>
